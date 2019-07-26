@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <ImageView
+
+
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/imgPeople"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+        <TextView
+
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:id="@+id/tvPeople"
+                android:layout_marginLeft="100dp"
+                android:layout_below="@id/images"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:layout_marginLeft="5dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textSize="15sp"
+                android:text="Biography"
+                android:id="@+id/tvOver"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+
+        <TextView
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:id="@+id/tvOverViewPeople"
+                android:layout_marginLeft="5dp"
+                android:layout_below="@id/images"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recomPeople"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+<TextView
+        android:id="@+id/tvfullimg"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:hint="Images"
+        android:layout_marginBottom="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
+
+
+</ScrollView>

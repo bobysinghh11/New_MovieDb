@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_marginTop="10dp"
+              android:layout_marginLeft="7dp"
+              android:layout_marginRight="7dp"
+              android:outlineSpotShadowColor="@android:color/background_light"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+        <TextView
+
+                android:textAlignment="center"
+                android:hint="Author"
+                android:id="@+id/reviewAuther"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:textAlignment="center"
+                android:hint="Content"
+                android:id="@+id/reviewContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+        <TextView
+                android:textAlignment="center"
+                android:hint="ID"
+                android:id="@+id/reviwID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:textAlignment="center"
+                android:hint="URL"
+                android:id="@+id/reviwURL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>

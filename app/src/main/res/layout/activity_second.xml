@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_marginTop="5dp"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <TextView
+            android:id="@+id/popular"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="8dp"
+            android:hint="Popular Tv Shows"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/tvRec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+
+    <TextView
+            android:id="@+id/tvTopRated"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="8dp"
+            android:hint="Top Rated TV Shows"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/tvRec1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="8dp"
+            android:hint="Currently Airing TV Shows"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/tvRec3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    <TextView
+
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="8dp"
+            android:hint="TV Shows Airing Today"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/tvRec4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
+</ScrollView>
